@@ -12,13 +12,11 @@ Este é um aplicativo de e-commerce e delivery especializado na venda de tintas 
 
 ## Funcionalidades
 
-- Cadastro e login de usuários
 - Navegação por catálogo de produtos
 - Filtragem por categorias e marcas
 - Carrinho de compras
-- Checkout e pagamento
-- Painel administrativo
-- Gerenciamento de pedidos
+- Detalhes de produtos
+- Layout responsivo
 
 ## Instalação
 
@@ -32,12 +30,7 @@ npm run dev
 
 ## Variáveis de Ambiente
 
-Crie um arquivo `.env.local` na raiz do projeto com as seguintes variáveis:
-
-```
-NEXT_PUBLIC_SUPABASE_URL=sua_url_do_supabase
-NEXT_PUBLIC_SUPABASE_ANON_KEY=sua_chave_anonima_do_supabase
-```
+O arquivo `.env.local` já está configurado com as credenciais do Supabase.
 
 ## Estrutura do Projeto
 
@@ -47,4 +40,4 @@ NEXT_PUBLIC_SUPABASE_ANON_KEY=sua_chave_anonima_do_supabase
 
 ## Licença
 
-© 2025 Spray Delivery. Todos os direitos reservados.
+© 2025 CH Monstro. Todos os direitos reservados.
